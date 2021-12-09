@@ -14,14 +14,14 @@ if ( $result == $comp_src ) goto a;
 $raw_t = $result;
 $raw_t = str_replace(array("\n", "\r", "\t", "\v", "\0", "}", "{", '"'), '', $raw_t);
 
-include './workers/watsonlate.php';
+include './watsonlate.php';
 if(strstr( $respo, 'watson-forbidden-error' ) == true) {echo 'translate'; mail("To: alerts@example.com","t_api_exhaust","Criteria hit: Watson_Died","From: xs@example.com");goto a;}
 
 $lres=strtolower($respo);
 
 file_put_contents("./comp/temp_xss.txt", $result);
 
-include './workers/search.php';
+include './search.php';
 
 a: echo " X_Executed: " . $state . " | " . $qq;
 if($state==1){
