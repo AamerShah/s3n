@@ -1,7 +1,8 @@
 # s3n
 Search-Scan-Save-Notify
 
-The program is a scraper for online web-content (APIs, RSS Feeds, or Websites) based on PHP.
+A program to scrape online web-content (APIs, RSS Feeds, or Websites) and notify if search term was hit. It is based on PHP.
+
 The goal was to scrape News sites and custom RSS feeds and notify if any search criteria was hit or if a change on the site was made.
 The program uses free API keys for translation. I used IBM's Watson. You may choose google or other.
 
