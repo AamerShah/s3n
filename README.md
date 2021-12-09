@@ -26,7 +26,7 @@ Here the contents from the site (let's say in Russian) will be sent to Watson's 
 ## Example
 You can integrate for xss.is (Russian hacking platform; in Russian language).
 
-##Changes are required before you begin
+## Changes are required before you begin
 * watsonlate.php (IBM wWatson Translator) file requires $turl (line 2), language translation model like ru-en (line 3), auth token (line 12). The token requires signup at Watson service. Watson can translate 20K words per month for free trial account. Be judicious in its use. You may set frequesncy of cron twice a day at max. 
 * search.php contains the list of terms you want to be notified about. Add new line for the new term (it is case insensitive as it is done in principal file in line 20). The $qq. variable will be displayed in the subject line of the email.
 * principal.php is the main file for a particular website. Create multiple copies for different websites. Change Line 6 to your target domain. Change email in line 11 to yours.
