@@ -33,3 +33,5 @@ You can integrate for xss.is (Russian hacking platform; in Russian language).
 * index.php is the one which a cron job should request in order for the entire above mentioned to commence. To be precise line 6 to 9 are important. The first and last lines are just calculating the round trip time of the entire program for debugging purpose.
 
 ## Finally Enjoy!
+* If you have a bug to report or suggest an efficient way for any of the various modules, send me a message via the contact form on https://aamershah.com.
+* I have uploaded this code and removed sensitive info. I hope I didn't remove any important artifact.
