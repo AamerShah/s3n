@@ -6,7 +6,7 @@ A program to scrape online web-content (APIs, RSS Feeds, or Websites) and notify
 
 ## Goal
 Scrape news sites and custom RSS feeds, detect keyword hits or page changes.  
-Optional: translate with IBM Watson (or Google) before searching.
+Optional: Translate with IBM Watson (or Google) before searching.
 
 ## Requirement
 - PHP Server  
